@@ -1,0 +1,23 @@
+Input File Description:
+N M L
+facility costs
+service costs
+clients preference
+connection cost
+
+In input folder, 
+n_3m = no of clients are three times to no of facilities
+3n_m = no of facilities are three times to no of clients
+ 
+For generating test case:
+g++ hierarchical_test_generator.cpp
+./a.out N M L folder_name
+
+
+For running code LOC Algorithm:
+g++ -std=c++11 FacilityLocation.h HierarchicalFL.h main.cpp
+./a.out < input file path
+
+
+For running code Optimal Solver:
+Run from MATLAB

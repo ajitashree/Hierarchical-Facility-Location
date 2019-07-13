@@ -1,0 +1,7 @@
+#g++ -std=c++11 -o genrator hierarichal_test_case_generator.cpp
+#g++ -std=c++11 -o algo main.cpp HierarchicalFL.h FacilityLocation.h
+
+while read line; do    
+    echo $line    
+    ./generator $line
+done < ../configFiles/config_n=1m.txt
